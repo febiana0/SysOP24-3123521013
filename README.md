@@ -159,7 +159,30 @@ Penjelasan:
 - tRFC : 128 clocks
 - CR : 1T
 
-  
+### Spesifikasi SPD
+![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Screenshot%20(41).png?raw=true) 
 
+#### _Section Memory Slot Selection_
+
+Memory Slot yang digunakan pada laptop ini adalah slot ke-1 saja, karena laptop ini merupakan laptop yang menggunakan single channel dapat dilihat pada kolom (Rank).
+
+- Modul Manuf. : TEAMGROUP.Inc 
+
+  TEAMGROUP.Inc  merupakan pembuat dari modul laptop
+
+- DRAM Manuf. : TEAMGROUP.Inc 
+
+  TEAMGROUP.Inc  merupakan pembuat dari memori laptop
+
+- Part Number : TEAMGROUP-SD3-1600
+
+- Serial Number : 01047D37
+
+  merupakan nomor seri dari memori DDR3 samsung tersebut
+
+
+### Spesifikasi Graphics
+
+![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Screenshot%20(42).png?raw=true) 
 
 
