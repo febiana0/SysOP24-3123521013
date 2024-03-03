@@ -128,13 +128,37 @@ Penjelasan:
 
   
 ### Spesifikasi Memory
-![alt text](?raw=true)
+![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Screenshot%20(40).png?raw=true)
 
 #### _Section General_
 
+- Type : DDR 3
+
+  Menampilkan tipe memori apa yang digunakan pada laptop / komputer.
+
+- Size : 4 Gbytes
+
+  merupakan besaran memori yang terdapat pada kompter/ laptop
+
+- Channel # : Dual
+
+- Uncore frequency : 1397.2 Mhz
 
 
+#### _Section Timings_
   
+- DRAM Frequency : 798,1 MHZ
+
+  frekuensi Memori DRAM adalah 798,4 MHZ
+  
+- FSB : DRAM = 1:6
+- CL : 11,0 clocks
+- tRCD : 11 clocks
+- tRP : 11 clocks
+- tRAS :28 clocks
+- tRFC : 128 clocks
+- CR : 1T
+
   
 
 
