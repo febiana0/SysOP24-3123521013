@@ -185,4 +185,30 @@ Memory Slot yang digunakan pada laptop ini adalah slot ke-1 saja, karena laptop 
 
 ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Screenshot%20(42).png?raw=true) 
 
+- Nama : NVIDIA GeForce 950M
+
+  Merupakan nama dari kartu grafis (VGA) pada laptop
+
+- Board Manf. : ASUSTeK Computer Inc. 
+
+  merupakan pembuat dari VGA tersebut
+
+- GFx Core : 927.9 MHz
+
+  kecepatan clock pada core VGA 927.9 MHz
+
+- Memory : 900.0 MHz
+
+  kecepatan  memory 900.0 MHz
+  
+- Memory Size : 2 GBytes
+
+  kapasitas dari memori VGA
+
+- Type : DDr3
+
+- Vendor : Micron
+ 
+- Bus Width : 64 Widts
+
 
