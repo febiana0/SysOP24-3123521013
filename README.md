@@ -90,7 +90,47 @@ Penjelasan:
 
 ### Spesifikasi Mainboard
 
- 
+![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Screenshot%20(39).png?raw=true)
+
+#### _Section Motherboard_
+
+- Manufacture : ASUStek Computer INC.
+
+  Merupakan pembuat dari motherboard laptop ini
+
+- Mode : X455LF
+
+  Tipe dari motherboard pada komputer atau laptop
+
+- Chipset : Intel
+  
+  Chipset yang digunakan adalah Intel, sedangkan Haswell-ULT merupakan tipe dari chipset yang digunakan. Secara fisik, chipset berupa sekumpulan IC kecil atau chips yang dirancang untuk   bekerjasama dan memiliki fungsi-fungsi tertentu
+
+- Southbridge : Intel
+  
+#### _Section BIOS_
+- Brand : American Megatrends Inc
+
+  Merupakan merk BIOS yang digunakan
+
+- Version : X455LF.205
+
+  Menampilkan versi BIOS
+
+- Date : 08/03/2015
+
+  tanggal pembuatan BIOS Graphic Interface
+  
+#### _Section Graphic Interface_
+- Bus : PCI-Express 
+
+  Menampilkan versi Graphic (VGA)
+
+  
+### Spesifikasi Memory
+![alt text](?raw=true)
+
+#### _Section General_
 
 
 
