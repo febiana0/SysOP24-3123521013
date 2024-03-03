@@ -1,4 +1,4 @@
-# Boot Process dan Mengidentifikasi CPU pada Laptop
+# Boot Process dan Mengidentifikasi Laptop pada Aplikasi CPU-Z
 
 ## Boot Process
 
@@ -18,4 +18,84 @@ Penjelasan:
 ## Mengidentifikasi Laptop melalui aplikasi CPU-Z
 
 ### Spesifikasi CPU
+![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Screenshot%20(38).png?raw=true)
+
+#### _Section Processor_
+- Name : Intel Core i3 4005U
+
+  Menampilkan nama dari processor yang digunakan pada laptop atau komputer
+
+- Code Name : Haswell ULT
+
+  Menampilkan Code dari processor yang dipakai komputer atau laptop
+
+- Max TDP : 15.0 W
+
+  Menyatakan power consumption, Artinya laptop atau komputer ini membutuhkan daya 15.0 W saat bekerja
+
+-   Package : Socket 1168 BGA
+
+    Menampilkan bahwa jenis socket pada processor laptop ini adalah Socket 1168 BGA
+
+- Technology :  22 nm
+
+  Menampilkan Seberapa besar komponen yang digunakan
+
+- Core Voltage : 0.670 V
+
+  Menampilkan tegangan listrik yang digunakan
+
+-  Specification : Intel Core i3-4005U CPU @ 1.70GHz
+
+    Menampilkan Spesifikasi dari komputer atau laptop yang dipakai
+
+- Family : 6
+
+  Menampilkan generasi keberapa processor yang digunakan
+
+- Ext Family : 6
+
+  Menampilkan total family (keluarga) processor yang ada dalam komputer atau laptop
+
+- Intruction : MMX, SSE, SSE2, SSE3, SSSE3, SSE4.1, SSE4.2, EM64T, VT-x, AES, AVX, AVX2, FMA3
+
+  Menampilkan instruksi yang didukung dalam processor yang dipakai.
+
+  MMX : berhubungan dengan Integrasi VGA (yang mangatur tentang visual berupa gambar, grafik, dll).
+  SSE : jenis – jenis instruksi algoritma atau perhitungan yang dapat dipahami processor.
+  EM64T : teknologi yang meningkatkan platform server dan stasiun kerja dengan keterlayakan alamat 64 bit dan instruksi terkait.
+  VT-x :  dapat mengizinkan komputer untuk membuat mesin virtuaL
+
+#### _Section Clocks (Core #0)_
+
+- Core Speed : 1695.95 MHz
+
+  Mengetahui kecepatan satu core satuan dalam melakukan suatu perintah
+
+- Multiplier : x 8.0 (8.0 – 17.0)
+  
+  Mengatur lebar jalur transfer yang tersedia. Pengkali. Apabila processor banyak melakukan proses pada computer, maka multiplier         meningkat. Sedangkan apabila processor sedikit melakukan proses pada computer, maka multiplier menurun dalam keadaan stabil.
+
+- BUS speed : 99.76 MHz
+  
+  Menampilkan kecepatan transfer data dan instruksi atau kecepatan BUS. Jumlah alur yang mampu dilaksanakan oleh sebuah pemproses dalam   masa second. Satuan waktu ini diukur dalam unit juta arahan second yang disebut juga sebagai megahertz (MHz) atau juta kitaran second 
+
+- Cache
+
+  Cache memory adalah memory berukuran kecil berkecepatan tinggi yang berfungsi untuk menyimpan sementara instruksi dan/atau data   (informasi) yang diperlukan oleh prosesor
+  - L1 : Trensfer data ke prosesor paling cepat karena letaknya paling dekat dengan prosesor
+  - L2 : Transfer data ke proseror lebih lambat dari L1 karena posisinya lebih jauh dari prosesor
+  - L3 : Transfer datanya paling lambat kerena jauh dari prosesor
+
+
+### Spesifikasi Mainboard
+
+ 
+
+
+
+  
+  
+
+
 
