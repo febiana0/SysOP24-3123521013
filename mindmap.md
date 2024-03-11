@@ -15,4 +15,11 @@
 ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Screenshot%20(63).png?raw=true)
 
 ## Chapter 1 
+![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Screenshot%20(64).png?raw=true)
+
+## Chapter 2
+
+![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Screenshot%20(65).png?raw=true)
+
+
 
