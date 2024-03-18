@@ -62,16 +62,18 @@
      $ cat 1> myfile.txt
      Ini adalah teks yang saya simpan ke file myfile.txt
      ```
+      ![Per2(1)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/f6032a9d-e91f-4d02-872d-aee351e9904b)
 
-  **Analisa:** 1> merupakan salah satu metode pembelokan pengganti standar output. Alternatifnya yaitu dengan menggunakan >
+      Analisa: 1> merupakan salah satu metode pembelokan pengganti standar output. Alternatifnya yaitu dengan menggunakan >
 
   2. Pembelokan standar input, yaitu input dibelokkan dari keyboard menjadi dari file
       ```
       $ cat 0< myfile.txt
       $ cat myfile.txt 
       ```
+      ![Per2(2)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/45a83ab1-0aa7-4b64-b8ee-24f6e1762b73)
 
-  **Analisa:** 0< merupakan salah satu metode pembelokan standar input, yaitu input dibelokkan dari keyboard menjadi dari file. Alternatifnya yaitu dengan menggunakan <
+      Analisa: 0< merupakan salah satu metode pembelokan standar input, yaitu input dibelokkan dari keyboard menjadi dari file. Alternatifnya yaitu dengan menggunakan <
 
   3. Pembelokan standar error untuk disimpan di file
        ```
@@ -79,6 +81,7 @@
        $ mkdir mydir 2> myerror.txt
        $ cat myerror.txt
        ```
+     ![Per2(3)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/a4089cc3-4224-48eb-adbf-8ac6300488d8)
 
       Analisa: 2> merupakan metode pembelokan standar error untuk kemudian disimpan di file
 
@@ -90,6 +93,7 @@
      $ ls filebaru 2> out.txt 2>&
      $ cat out.txt
      ```
+      ![Per2(4)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/ba6c3444-828f-472d-8b97-5eb52ff7b227)
 
      Analisa: Notasi 2>&1 pembelokan standar error (2>) adalah identik dengan file descriptor 1
 
@@ -99,6 +103,7 @@
    $ cat filebaru 2> baru 1>&
    $ cat baru
    ```
+    ![Per2(5)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/f4fe49e6-fbdf-4490-b3f7-2bf6489a5935)
 
    Analisa: Notasi 1>&2 (atau >&2)  pembelokan standar output adalah sama dengan file descriptor 2 yaitu standar error
 
@@ -111,8 +116,9 @@
    $ echo “kata keempat” > surat
    $ cat surat
    ```
+    ![Per2(6)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/6411be43-504d-44ea-8bce-28fb8bd24d8d)
 
-   Analisa:
+   Analisa: Notasi >> (append) digunakan untuk membelokkan tampilan standard output ke file tanpa menghapus isi dari file sebelumnya
 
 7. Notasi here document (<<++ .... ++) digunakan sebagai pembatas input dari keyboard. Perhatikan bahwa tanda pembatas dapat digantikan dengan tanda apa saja, namun harus sama dan tanda    penutup harus diberikan pada awal baris
      ```
@@ -127,15 +133,18 @@
     Ok!
     %%%
     ```
+     ![Per2(7)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/8a8339bd-5513-4d7f-a052-fead852c6d22)
+     ![Per2(7 2)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/cb0e9c6a-4d87-4f4c-86f0-8da553f27bd5)
 
-  Analisa:
+    Analisa: Notasi here document (<<++ .... ++) digunakan sebagai pembatas input dari keyboard
 
 8. Notasi – (input keyboard) adalah representan input dari keyboard. Artinya menampilkan file 1, kemudian menampilkan input dari keyboard dan menampilkan file 2. Perhatikan bahwa notasi    “-“ berarti menyelipkan input dari keyboard
    ```
    $ cat myfile.txt – surat
    ```
+    ![Per2(8)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/a8838f9a-fb16-4663-a2eb-9f8c7d6c3912)
 
-   Analisa:
+   Analisa: Notasi – (input keyboard) adalah representan input dari keyboard. Artinya menampilkan file
 
 ### Percobaan 3 : Pipa (pipeline)
 
@@ -150,8 +159,9 @@
     $ ls –l /etc | more
     $ ls –l /etc | sort | more
     ```
+      ![Per3(1)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/77046744-6df1-40fe-9076-804a75225547)
 
-    Analisa:
+    Analisa: Operator pipa (|) digunakan untuk membuat eksekusi proses dengan melewati data langsung ke data lainnya
 
 2. Untuk membelokkan standart output ke file, digunakan operator ">"
    ```
@@ -159,23 +169,26 @@
    $ echo hello > output
    $ cat output
    ```
+    ![Per3(2)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/a96b6683-5603-4fd5-b794-e74cb3192d71)
 
-   Analisa:
+   Analisa: Untuk membelokkan standart output ke file, digunakan operator >
 
 3. Untuk menambahkan output ke file digunakan operator ">>"
    ```
    $ echo bye >> output
    $ cat output
    ```
+    ![Per3(3)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/2d9d4ae2-c9e2-4333-821b-f30e95b734e4)
 
-   Analisa:
+   Analisa: Untuk menambahkan output ke file digunakan operator >>
 
 4. Untuk membelokkan standart input digunakan operator "<"
    ```
    $ cat < output
    ```
+    ![Per3(4)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/83d9c738-1151-4aac-886c-4da375bae7fc)
 
-   Analisa:
+   Analisa: Untuk membelokkan standart input digunakan operator <
 
 5. Pembelokan standart input dan standart output dapat dikombinasikan tetapi tidak boleh menggunakan nama file yang sama sebagai standart input dan output
     ```
@@ -189,8 +202,9 @@
     [Ctrl-c]
     $ cat out
     ```
+      ![Per3(5)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/f9328770-f358-43c6-8dc9-ec34a735e557)
 
-    Analisa:
+      Analisa: Pembelokan standart input dan standart output dapat dikombinasikan tetapi tidak boleh menggunakan nama file yang sama sebagai standart input dan output
 
 ### Percobaan 4 : Filter
 
@@ -217,8 +231,10 @@
      $ cat kelas1.txt kelas2.txt > kelas.txt
      $ cat kelas.txt | sort | uniq
      ```
+        ![perc4(1)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/66eae79c-3efe-480d-b1e3-3f394df9c634)
+        ![perc4(2)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/7cb97b16-72bb-4598-8d54-88ffa293be84)
 
-     Analisa:
+        Analisa: Pipa juga digunakan untuk mengkombinasikan utilitas sistem untuk membentuk fungsi yang lebih kompleks
 
 # LATIHAN
 
