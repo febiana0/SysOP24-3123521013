@@ -68,7 +68,7 @@ $ sudo make uninstall
 ## Usage
 
 ```sh
-  $ iops44 $(nproc)
+  $ iops64 $(nproc)
 ```
 
 ### $ iops64 $(nproc) 1
@@ -118,5 +118,57 @@ $ sudo make uninstall
    - maximum single core cpu throughput: 2.8938189 Gigaiops enunjukkan throughput maksimum yang diperoleh pada satu core CPU, juga diukur dalam Gigaiops
 
 
+## Usage
+
+```sh
+  $ flops64 $(nproc)
+```
+
+### $ flops64 $(nproc) 1
+   ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/flops64(1).png?raw=true)
+   
+   hasil: 
+   - 1 | Tr 1: 2701029188 merupakan nomor iterasi atau transaksi, diikuti oleh identifikasi unik atau penanda waktu yang terkait dengan pengujian
+   - FLOPS = 2701029188 menunjukkan jumlah operasi floating-point per detik (FLOPS) yang dicapai selama pengujian
+   - Maximum CPU throughput: 2.701029 Gigaiops menunjukkan throughput maksimum CPU yang dicapai selama pengujian, diukur dalam Gigaflops (Giga floating-point operations per second)
+   - maximum single core cpu throughput: 2.701029 Gigaflops menunjukkan throughput maksimum yang diperoleh pada satu core CPU, juga diukur dalam Gigaflops
+
+### $ flops64 $(nproc) 2
+   ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/flops64(2).png?raw=true)
+   
+   hasil: 
+   - 1 | Tr 1: 2722983120 merupakan nomor iterasi atau transaksi, diikuti oleh identifikasi unik atau penanda waktu yang terkait dengan pengujian
+   - FLOPS = 2722983120 menunjukkan jumlah operasi floating-point per detik (FLOPS) yang dicapai selama pengujian
+   - Maximum CPU throughput: 2.722983 Gigaiops menunjukkan throughput maksimum CPU yang dicapai selama pengujian, diukur dalam Gigaflops (Giga floating-point operations per second)
+   - maximum single core cpu throughput: 2.722983 Gigaflops menunjukkan throughput maksimum yang diperoleh pada satu core CPU, juga diukur dalam Gigaflops
+
+### $ flops64 $(nproc) 3
+   ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/flops64(3).png?raw=true)
+   
+   hasil: 
+   - 1 | Tr 1: 2723450600 merupakan nomor iterasi atau transaksi, diikuti oleh identifikasi unik atau penanda waktu yang terkait dengan pengujian
+   - FLOPS = 2723450600 menunjukkan jumlah operasi floating-point per detik (FLOPS) yang dicapai selama pengujian
+   - Maximum CPU throughput: 2.723451 Gigaiops menunjukkan throughput maksimum CPU yang dicapai selama pengujian, diukur dalam Gigaflops (Giga floating-point operations per second)
+   - maximum single core cpu throughput: 2.723451 Gigaflops menunjukkan throughput maksimum yang diperoleh pada satu core CPU, juga diukur dalam Gigaflops
+
+### $ flops64 $(nproc) 4
+   ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/flops64(4).png?raw=true)
+   
+   hasil: 
+   - 1 | Tr 1: 2684977490 merupakan nomor iterasi atau transaksi, diikuti oleh identifikasi unik atau penanda waktu yang terkait dengan pengujian
+   - FLOPS = 2684977490 menunjukkan jumlah operasi floating-point per detik (FLOPS) yang dicapai selama pengujian
+   - Maximum CPU throughput: 2.684977 Gigaiops menunjukkan throughput maksimum CPU yang dicapai selama pengujian, diukur dalam Gigaflops (Giga floating-point operations per second)
+   - maximum single core cpu throughput: 2.684977 Gigaflops menunjukkan throughput maksimum yang diperoleh pada satu core CPU, juga diukur dalam Gigaflops
+
+### $ flops64 $(nproc) 5
+   ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/flops64(5).png?raw=true)
+   
+   hasil: 
+   - 1 | Tr 1: 2538892798 merupakan nomor iterasi atau transaksi, diikuti oleh identifikasi unik atau penanda waktu yang terkait dengan pengujian
+   - FLOPS = 2538892798 menunjukkan jumlah operasi floating-point per detik (FLOPS) yang dicapai selama pengujian
+   - Maximum CPU throughput: 2.538893 Gigaiops menunjukkan throughput maksimum CPU yang dicapai selama pengujian, diukur dalam Gigaflops (Giga floating-point operations per second)
+   - maximum single core cpu throughput: 2.538893 Gigaflops menunjukkan throughput maksimum yang diperoleh pada satu core CPU, juga diukur dalam Gigaflops
+
+# Nomor 4
 
 
