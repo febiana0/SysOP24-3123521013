@@ -231,10 +231,10 @@
      $ cat kelas1.txt kelas2.txt > kelas.txt
      $ cat kelas.txt | sort | uniq
      ```
-        ![perc4(1)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/66eae79c-3efe-480d-b1e3-3f394df9c634)
-        ![perc4(2)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/7cb97b16-72bb-4598-8d54-88ffa293be84)
+   ![perc4(1)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/d0921d6f-1ff0-40bf-af42-d1e43d73e7d9)
+   ![perc4(2)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/7bbc2491-1c59-4f10-8eba-3c6fd0cb6e6f)
 
-        Analisa: Pipa juga digunakan untuk mengkombinasikan utilitas sistem untuk membentuk fungsi yang lebih kompleks
+     Analisa: Pipa juga digunakan untuk mengkombinasikan utilitas sistem untuk membentuk fungsi yang lebih kompleks
 
 # LATIHAN
 
