@@ -74,27 +74,48 @@ $ sudo make uninstall
 ### $ iops64 $(nproc) 1
    ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/iops64(1).png?raw=true)
    
-   analisa: 
+   hasil: 
+   - 1 | Tr 1: 2874645384 merupakan nomor iterasi atau transaksi, diikuti oleh identifikasi unik atau penanda waktu yang terkait dengan pengujian
+   - IOPS = 2874645384 menunjukkan jumlah operasi input/output (I/O) per detik (IOPS) yang dicapai selama pengujian
+   - Maximum CPU throughput: 2.874645384 Gigaiops menunjukkan throughput maksimum CPU yang dicapai selama pengujian, diukur dalam Gigaiops (Giga input/output operations per second)
+   - maximum single core cpu throughput: 2.874645384 Gigaiops enunjukkan throughput maksimum yang diperoleh pada satu core CPU, juga diukur dalam Gigaiops
 
 ### $ iops64 $(nproc) 2
    ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/iops64(2).png?raw=true)
    
-   analisa: 
+   hasil: 
+   - 1 | Tr 1: 2899442572 merupakan nomor iterasi atau transaksi, diikuti oleh identifikasi unik atau penanda waktu yang terkait dengan pengujian
+   - IOPS = 2899442572 menunjukkan jumlah operasi input/output (I/O) per detik (IOPS) yang dicapai selama pengujian
+   - Maximum CPU throughput: 2.899442572 Gigaiops menunjukkan throughput maksimum CPU yang dicapai selama pengujian, diukur dalam Gigaiops (Giga input/output operations per second)
+   - maximum single core cpu throughput: 2.899442572 Gigaiops enunjukkan throughput maksimum yang diperoleh pada satu core CPU, juga diukur dalam Gigaiops
+   
 
 ### $ iops64 $(nproc) 3
    ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/iops64(3).png?raw=true)
    
-   analisa: 
+   hasil: 
+   - 1 | Tr 1: 2879324656 merupakan nomor iterasi atau transaksi, diikuti oleh identifikasi unik atau penanda waktu yang terkait dengan pengujian
+   - IOPS = 2879324656 menunjukkan jumlah operasi input/output (I/O) per detik (IOPS) yang dicapai selama pengujian
+   - Maximum CPU throughput: 2.879325 Gigaiops menunjukkan throughput maksimum CPU yang dicapai selama pengujian, diukur dalam Gigaiops (Giga input/output operations per second)
+   - maximum single core cpu throughput: 2.879325 Gigaiops enunjukkan throughput maksimum yang diperoleh pada satu core CPU, juga diukur dalam Gigaiops
 
 ### $ iops64 $(nproc) 4
    ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/iops64(4).png?raw=true)
    
-   analisa: 
+   hasil: 
+   - 1 | Tr 1: 2847016588 merupakan nomor iterasi atau transaksi, diikuti oleh identifikasi unik atau penanda waktu yang terkait dengan pengujian
+   - IOPS = 2847016588 menunjukkan jumlah operasi input/output (I/O) per detik (IOPS) yang dicapai selama pengujian
+   - Maximum CPU throughput: 2.847017 Gigaiops menunjukkan throughput maksimum CPU yang dicapai selama pengujian, diukur dalam Gigaiops (Giga input/output operations per second)
+   - maximum single core cpu throughput: 2.847017 Gigaiops enunjukkan throughput maksimum yang diperoleh pada satu core CPU, juga diukur dalam Gigaiops
 
 ### $ iops64 $(nproc) 5
    ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/iops64(5).png?raw=true)
    
-   analisa: 
+   hasil: 
+   - 1 | Tr 1: 2893818928 merupakan nomor iterasi atau transaksi, diikuti oleh identifikasi unik atau penanda waktu yang terkait dengan pengujian
+   - IOPS = 2893818928 menunjukkan jumlah operasi input/output (I/O) per detik (IOPS) yang dicapai selama pengujian
+   - Maximum CPU throughput: 2.8938189 Gigaiops menunjukkan throughput maksimum CPU yang dicapai selama pengujian, diukur dalam Gigaiops (Giga input/output operations per second)
+   - maximum single core cpu throughput: 2.8938189 Gigaiops enunjukkan throughput maksimum yang diperoleh pada satu core CPU, juga diukur dalam Gigaiops
 
 
 
