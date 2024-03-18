@@ -169,6 +169,32 @@ $ sudo make uninstall
    - Maximum CPU throughput: 2.538893 Gigaiops menunjukkan throughput maksimum CPU yang dicapai selama pengujian, diukur dalam Gigaflops (Giga floating-point operations per second)
    - maximum single core cpu throughput: 2.538893 Gigaflops menunjukkan throughput maksimum yang diperoleh pada satu core CPU, juga diukur dalam Gigaflops
 
+### Plot Perbandingan Antar Teman
+![Screenshot (67)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/e16e70ca-2213-413d-ad36-03d60dfcb863)
+
+  **Analisa:** Dari plot perbandingan di atas, dapat dilihat bahwa Alyssa memiliki nilai rata-rata IOPS dan FLOPS yang lebih tinggi dibandingkan dengan Dyzka, Pelangi, dan Feby. Hal ini   menunjukkan bahwa PC Alyssa cenderung memiliki performa yang lebih baik dalam menangani operasi input/output (IOPS) dan operasi floating point (FLOPS).
+
+  **Kesimpulan:** performa komputer dalam hal IOPS dan FLOPS sangat penting tergantung pada kebutuhan aplikasi atau tugas yang dijalankan. Semakin tinggi nilai IOPS dan FLOPS, semakin     baik kemampuan komputer tersebut dalam menangani tugas-tugas yang memerlukan operasi input/output dan operasi floating point secara cepat dan efisien.
+
+
 # Nomor 4
+
+```sh
+  apt install make
+```
+![apt (2)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/a11e09f8-2e3c-4948-a30b-12803a772a87)
+
+```sh
+  apt install gcc
+```
+![apt (3)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/0639500c-2c37-4578-a6a5-1c8b143d8b9e)
+
+```sh
+  apt install git
+```
+![apt (4)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/cdd0409f-d59e-45f5-ab64-d193e3e471e1)
+
+
+
 
 
