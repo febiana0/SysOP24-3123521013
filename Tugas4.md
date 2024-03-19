@@ -239,20 +239,27 @@
 # LATIHAN
 
 1. Lihat daftar secara lengkap pada direktori aktif, belokkan tampilan standard output ke file baru
+    ![lat(1)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/8bee2452-6a30-42e0-973e-3561ce2c0eaa)
 
-   Analisa: 
+   Analisa: Untuk melihat daftar direktori aktif, gunakan perintah $ ls, sedangkan untuk membelokkan tampilan standard output ke file baru, gunakan ‘>’
 2. Lihat daftar secara lengkap pada direktori /etc/passwd, belokkan tampilan standard output ke file baru tanpa menghapus file baru sebelumnya
+    ![lat(2)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/579f6518-09f1-4ec7-9b98-ba81b37e3f0c)
 
-   Analisa: 
+   Analisa: Untuk melihat daftar lengkap dari direktori /etc/passwd, gunakan perntah $ ls, sedangkan untuk membelokkan tampilan standard output ke file baru tanpa menghapus file baru       sebelumnya, gunakan ‘>>’
 3. Urutkan file baru dengan cara membelokkan standard input
+    ![lat(3)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/b75ac377-07cf-47bd-8678-3630d86607dd)
 
-   Analisa: 
+   Analisa: Untuk mengurutkan file, gunakan perintah $ sort, sedangkan untuk membelokkan standard input, gunakan ‘<’
 4. Urutkan file baru dengan cara membelokkan standard input dan standard output ke file baru.urut
+    ![lat(4)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/db58bf52-fc3b-4e35-b9cc-c0291744e650)
 
-   Analisa: 
+   Analisa: Untuk mengurutkan file, gunakan perintah $ sort, sedangkan untuk membelokkan standard input, gunakan ‘<’, sedangkan untuk membelokkan standard output ke file, gunakan ‘>’.      Pembelokan standart input dan standart output dapat dikombinasikan asalkan tidak boleh menggunakan nama file yang sama sebagai standart input dan output
 5. Buatlah direktori latihan 2 sebanyak 2 kali dan belokkan standard error ke file rmdirerror.txt
+    ![lat(5)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/b485d99f-0435-48bd-8cdf-ff911f1b6c40)
+    ![lat(6)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/9f147228-7419-43bf-a18d-9e6f6371e7a6)
 
-    Analisa: 
+
+    Analisa: Perintah $ mkdir untuk membuat direktori baru. Saat membuat direktori yang sama sebanyak dua kali, akan muncul pesan error. Pesan error itu kemudian dibelokkan ke file          dengan menggunakan ‘2>’
 6. Urutkan kalimat berikut:
    ```
    Jakarta
@@ -263,13 +270,15 @@
    Lampung
    ```
   Dengan menggunakan notasi here document (<@@@ ...@@@) . HINT
+    ![lat(7)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/60a770bb-01a2-4554-b305-a6e6a71e25c0)
 
 
-  Analisa: 
+  Analisa: Pertama, buat notasi here document yang akan dibelokkan ke sebuah file kemudian isi document tersebut. Setelah diisi dan diakhiri, isi dokumen akan tersimpan ke file yang       dibelokkan. File tersebut kemudian diurutkan menggunakan perintah $ sort.
   
 7. Hitung jumlah baris, kata dan karakter dari file baru.urut dengan menggunakan filter dan tambahkan data tersebut ke file baru
+    ![lat(8)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/751efe08-2e67-4e81-96cf-243eb056fa19)
 
-   Analisa: 
+   Analisa: Untuk mendapatkan jumlah baris, kata, dan karakter (secara berurutan) dari sebuah file, gunakan perintah wc yang dipipakan dengan perintah cat. Hasilnya kemudian bisa           ditambahkan ke file menggunakan ‘>>’
 8. Gunakan perintah di bawah ini dan perhatikan hasilnya
    ```
    $ cat > hello.txt
@@ -283,12 +292,13 @@
    $ cat hello.txt | sort | uniq
    $ cat hello.txt | grep “dog” | grep –v “cat”
    ```
+    ![lat(9)](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/aafe530a-f381-4aef-9550-b9ea47d015a4)
 
-   Analisa:
+   Analisa: Uniq digunakan untuk menghilangkan baris-baris berurutan yang mengalami duplikasi, Grep digunakan untuk menyaring masukannya dan menampilkan baris-baris yang hanya              mengandung pola yang ditentukan
 
 # Kesimpulan
         
-
+  Proses dalam Linux memerlukan input dan menghasilkan output. Instruksi yang diberikan melalui Shell disebut sebagai eksekusi program yang selanjutnya menjadi proses dengan nomor PID (Process Identity). Linux berkomunikasi dengan file melalui file descriptor yang direpresentasikan dengan angka, dimulai dari 0. Redirection digunakan untuk mengalihkan aliran standar input, output, dan error dengan mengubah file descriptor terkait (0, 1, dan 2). Pipeline adalah mekanisme pipa untuk komunikasi antar proses. Sedangkan filter adalah utilitas Linux yang dapat memproses standard input (dari keyboard) dan menampilkan hasilnya pada standard output (layar)
     
 
 
