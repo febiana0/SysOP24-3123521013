@@ -25,6 +25,7 @@ Pada siklus CPU, terdapat tiga komponen atau langkah-langkah utama yaitu Fetch (
 Dalam siklus CPU, Fetch (Pengambilan) adalah langkah paling awal, di mana CPU mengambil instruksi dari memori. Proses ini melibatkan pengiriman alamat memori dari instruksi yang akan dieksekusi oleh CPU ke unit memori. Setelah itu, Unit memori mengambil instruksi tersebut dari lokasi memori yang sesuai lalu mengirimkan instruksi tersebut kembali ke CPU untuk diproses lebih lanjut dalam siklus eksekusi. Pada intinya, Fetch adalah proses pengambilan instruksi dari memori agar nantinya dapat dieksekusi oleh CPU.
 
 2. Decode (Pemecahan Kode)
+   
    ![decode](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/6a3da20b-d419-427c-98d0-5f84421920c3)
 
    - CPU memproses instruksi yang telah diterima dari langkah Fetch 
