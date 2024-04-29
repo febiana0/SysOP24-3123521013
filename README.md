@@ -1,0 +1,1 @@
+# Perbedaan RISC dan CISC 
