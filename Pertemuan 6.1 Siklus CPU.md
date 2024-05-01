@@ -1,4 +1,4 @@
-# Nomor 1
+
 
 ![CPU process](https://github.com/febiana0/SysOP24-3123521013/assets/148712001/4bdcb750-d51a-449a-9357-55f6bd4354a0)
 
