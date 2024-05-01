@@ -1,13 +1,13 @@
 ## Melakukan clone https://github.com/ferryastika/flops-iops
   
-  ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/VirtualBox_Debian12%20Desktop%20FEBI_17_03_2024_10_40_31.png?raw=true)
+  ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/image_asset/VirtualBox_Debian12%20Desktop%20FEBI_17_03_2024_10_40_31.png?raw=true)
 
 ## Build Binaries
 
 ```sh
 $ make
 ```
-![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/VirtualBox_Debian12%20Desktop%20FEBI_17_03_2024_10_42_50.png?raw=true)
+![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/image_asset/VirtualBox_Debian12%20Desktop%20FEBI_17_03_2024_10_42_50.png?raw=true)
 
 ## Cleaning Old Build
 
