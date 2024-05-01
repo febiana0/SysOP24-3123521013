@@ -60,35 +60,35 @@ OS bertindak sebagai media perantara antara hardware (termasuk CPU) dengan softw
 
 ## Melakukan clone https://github.com/ferryastika/flops-iops
   
-  ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/VirtualBox_Debian12%20Desktop%20FEBI_17_03_2024_10_40_31.png?raw=true)
+  ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/image_asset/VirtualBox_Debian12%20Desktop%20FEBI_17_03_2024_10_40_31.png?raw=true)
 
 ## Build Binaries
 
 ```sh
 $ make
 ```
-![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/VirtualBox_Debian12%20Desktop%20FEBI_17_03_2024_10_42_50.png?raw=true)
+![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/image_asset/VirtualBox_Debian12%20Desktop%20FEBI_17_03_2024_10_42_50.png?raw=true)
 
 ## Cleaning Old Build
 
 ```sh
 $ make clean
 ```
-![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/makeclean.png?raw=true)
+![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/image_asset/makeclean.png?raw=true)
 
 ## Install Binaries 
 
 ```sh
 $ sudo make install
 ```
-![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/install.png?raw=true)
+![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/image_asset/install.png?raw=true)
 
 ## Uninstall Binaries 
 
 ```sh
 $ sudo make uninstall
 ```
-![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/uninstall.png?raw=true)
+![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/image_asset/uninstall.png?raw=true)
 
 ## Usage
 
@@ -97,7 +97,7 @@ $ sudo make uninstall
 ```
 
 ### $ iops64 $(nproc) 1
-   ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/iops64(1).png?raw=true)
+   ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/image_asset/iops64(1).png?raw=true)
    
    hasil: 
    - 1 | Tr 1: 2874645384 merupakan nomor iterasi atau transaksi, diikuti oleh identifikasi unik atau penanda waktu yang terkait dengan pengujian
@@ -106,7 +106,7 @@ $ sudo make uninstall
    - maximum single core cpu throughput: 2.874645384 Gigaiops enunjukkan throughput maksimum yang diperoleh pada satu core CPU, juga diukur dalam Gigaiops
 
 ### $ iops64 $(nproc) 2
-   ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/iops64(2).png?raw=true)
+   ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/image_asset/iops64(2).png?raw=true)
    
    hasil: 
    - 1 | Tr 1: 2899442572 merupakan nomor iterasi atau transaksi, diikuti oleh identifikasi unik atau penanda waktu yang terkait dengan pengujian
@@ -116,7 +116,7 @@ $ sudo make uninstall
    
 
 ### $ iops64 $(nproc) 3
-   ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/iops64(3).png?raw=true)
+   ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/image_asset/iops64(3).png?raw=true)
    
    hasil: 
    - 1 | Tr 1: 2879324656 merupakan nomor iterasi atau transaksi, diikuti oleh identifikasi unik atau penanda waktu yang terkait dengan pengujian
@@ -125,7 +125,7 @@ $ sudo make uninstall
    - maximum single core cpu throughput: 2.879325 Gigaiops enunjukkan throughput maksimum yang diperoleh pada satu core CPU, juga diukur dalam Gigaiops
 
 ### $ iops64 $(nproc) 4
-   ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/iops64(4).png?raw=true)
+   ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/image_asset/iops64(4).png?raw=true)
    
    hasil: 
    - 1 | Tr 1: 2847016588 merupakan nomor iterasi atau transaksi, diikuti oleh identifikasi unik atau penanda waktu yang terkait dengan pengujian
@@ -134,7 +134,7 @@ $ sudo make uninstall
    - maximum single core cpu throughput: 2.847017 Gigaiops enunjukkan throughput maksimum yang diperoleh pada satu core CPU, juga diukur dalam Gigaiops
 
 ### $ iops64 $(nproc) 5
-   ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/iops64(5).png?raw=true)
+   ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/image_asset/iops64(5).png?raw=true)
    
    hasil: 
    - 1 | Tr 1: 2893818928 merupakan nomor iterasi atau transaksi, diikuti oleh identifikasi unik atau penanda waktu yang terkait dengan pengujian
@@ -150,7 +150,7 @@ $ sudo make uninstall
 ```
 
 ### $ flops64 $(nproc) 1
-   ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/flops64(1).png?raw=true)
+   ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/image_asset/flops64(1).png?raw=true)
    
    hasil: 
    - 1 | Tr 1: 2701029188 merupakan nomor iterasi atau transaksi, diikuti oleh identifikasi unik atau penanda waktu yang terkait dengan pengujian
@@ -159,7 +159,7 @@ $ sudo make uninstall
    - maximum single core cpu throughput: 2.701029 Gigaflops menunjukkan throughput maksimum yang diperoleh pada satu core CPU, juga diukur dalam Gigaflops
 
 ### $ flops64 $(nproc) 2
-   ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/flops64(2).png?raw=true)
+   ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/image_asset/flops64(2).png?raw=true)
    
    hasil: 
    - 1 | Tr 1: 2722983120 merupakan nomor iterasi atau transaksi, diikuti oleh identifikasi unik atau penanda waktu yang terkait dengan pengujian
@@ -168,7 +168,7 @@ $ sudo make uninstall
    - maximum single core cpu throughput: 2.722983 Gigaflops menunjukkan throughput maksimum yang diperoleh pada satu core CPU, juga diukur dalam Gigaflops
 
 ### $ flops64 $(nproc) 3
-   ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/flops64(3).png?raw=true)
+   ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/image_asset/flops64(3).png?raw=true)
    
    hasil: 
    - 1 | Tr 1: 2723450600 merupakan nomor iterasi atau transaksi, diikuti oleh identifikasi unik atau penanda waktu yang terkait dengan pengujian
@@ -177,7 +177,7 @@ $ sudo make uninstall
    - maximum single core cpu throughput: 2.723451 Gigaflops menunjukkan throughput maksimum yang diperoleh pada satu core CPU, juga diukur dalam Gigaflops
 
 ### $ flops64 $(nproc) 4
-   ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/flops64(4).png?raw=true)
+   ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/image_asset/flops64(4).png?raw=true)
    
    hasil: 
    - 1 | Tr 1: 2684977490 merupakan nomor iterasi atau transaksi, diikuti oleh identifikasi unik atau penanda waktu yang terkait dengan pengujian
@@ -186,7 +186,7 @@ $ sudo make uninstall
    - maximum single core cpu throughput: 2.684977 Gigaflops menunjukkan throughput maksimum yang diperoleh pada satu core CPU, juga diukur dalam Gigaflops
 
 ### $ flops64 $(nproc) 5
-   ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/flops64(5).png?raw=true)
+   ![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Tugas%203/image_asset/flops64(5).png?raw=true)
    
    hasil: 
    - 1 | Tr 1: 2538892798 merupakan nomor iterasi atau transaksi, diikuti oleh identifikasi unik atau penanda waktu yang terkait dengan pengujian
