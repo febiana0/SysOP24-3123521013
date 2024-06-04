@@ -2,7 +2,7 @@
 
 ## Boot Process
 
-![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Pertemuan 03/image_asset/Diagram%20Tanpa%20Judul.jpg?raw=true)
+![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Pertemuan%2003/image_asset/Diagram%20Tanpa%20Judul.jpg?raw=true)
 
 Penjelasan:
 - Processor start BIOS, proses pertama ketika menyalakan komputer terjadi di bios. BIOS (basic input output system) berfungsi untuk menjalankan POST dan membaca MBR
