@@ -18,7 +18,7 @@ Penjelasan:
 ## Mengidentifikasi Laptop melalui aplikasi CPU-Z
 
 ### Spesifikasi CPU
-![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/image_asset/Screenshot%20(38).png?raw=true)
+![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Pertemuan%2003/image_asset/Screenshot%20(38).png?raw=true)
 
 #### _Section Processor_
 - Name : Intel Core i3 4005U
@@ -90,7 +90,7 @@ Penjelasan:
 
 ### Spesifikasi Mainboard
 
-![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/image_asset/Screenshot%20(39).png?raw=true)
+![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Pertemuan%2003/image_asset/Screenshot%20(39).png?raw=true)
 
 #### _Section Motherboard_
 
@@ -128,7 +128,7 @@ Penjelasan:
 
   
 ### Spesifikasi Memory
-![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/image_asset/Screenshot%20(40).png?raw=true)
+![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Pertemuan%2003/image_asset/Screenshot%20(40).png?raw=true)
 
 #### _Section General_
 
@@ -160,7 +160,7 @@ Penjelasan:
 - CR : 1T
 
 ### Spesifikasi SPD
-![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/image_asset/Screenshot%20(41).png?raw=true) 
+![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Pertemuan%2003/image_asset/Screenshot%20(41).png?raw=true) 
 
 #### _Section Memory Slot Selection_
 
@@ -183,7 +183,7 @@ Memory Slot yang digunakan pada laptop ini adalah slot ke-1 saja, karena laptop 
 
 ### Spesifikasi Graphics
 
-![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/image_asset/Screenshot%20(42).png?raw=true) 
+![alt text](https://github.com/febiana0/SysOP24-3123521013/blob/main/Pertemuan%2003/image_asset/Screenshot%20(42).png?raw=true) 
 
 - Nama : NVIDIA GeForce 950M
 
